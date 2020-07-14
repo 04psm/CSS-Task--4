@@ -1,59 +1,102 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Navigationb bar</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<html >
+  <head>
+    <meta charset="UTF-8" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>CSS 4</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link
+      href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap"
+      rel="stylesheet"/>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css" >
   </head>
   <body>
-    <nav>
-      <div class="logo">CampusX</div>
-<label for="btn" class="icon">
-        <span class="fa fa-bars"></span>
-      </label>
-      <input type="checkbox" id="btn">
-      <ul>
-<li><a href="#">Home</a></li>
-<li>
-    <label for="btn-1" class="show">Features +</label>
-    <a href="#">Features</a>
-    <input type="checkbox" id="btn-1">
-    <ul>
-			<li><a href="#">Pages</a></li>
-			<li><a href="#">Elements</a></li>
-			<li><a href="#">Icons</a></li>
-	</ul>
-</li>
-<li>
-    <label for="btn-2" class="show">Services +</label>
-    <a href="#">Services</a>
-    <input type="checkbox" id="btn-2">
-    <ul>
-			<li><a href="#">Web Design</a></li>
-			<li><a href="#">App Design</a></li>
-<li>
-    <label for="btn-3" class="show">More +</label>
-              
-    <a href="#">More <span class="fa fa-plus"></span></a>
-    <input type="checkbox" id="btn-3">
-    <ul>
-			<li><a href="#">Submenu-1</a></li>
-			<li><a href="#">Submenu-2</a></li>
-			<li><a href="#">Submenu-3</a></li>
-	</ul>
-</li>
-</ul>
-</li>
-			<li><a href="#">Portfolio</a></li>
-			<li><a href="#">Contact</a></li>
-</ul>
-</nav>
 
-    
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">
+        <i class="material-icons">engineering</i>Job Factory</a>
 
+      <ul class="navbar-links">
+
+        <li class="navbar-dropdown">
+
+          <a href="#">B.Tech</a>
+
+          <div class="sub-dropdown">
+            <a href="#">Civil</a>
+            
+            <a href="#">Mechanical</a>
+            <a href="#">Electrical</a>
+            <a href="#">Computer Science</a>
+          </div>
+        </li>
+
+
+        <li class="navbar-dropdown">
+          <a href="#">B.Com</a>
+          <div class="dropdown">
+            <a href="#">MBA</a>
+            <a href="#">CA</a>
+            <a href="#">Company Secretary</a>
+            <a href="#">Master of Commerce</a>
+            <a href="#">Chartered Financial Analyst</a>
+            <a href="#">Financial Risk Manager</a>
+          </div>
+        </li>
+
+
+        <li class="navbar-dropdown">
+          <a href="#">Designer</a>
+          <div class="dropdown">
+            <a href="#">Graphic designer</a>
+            <a href="#">(UX) designer</a>
+            <a href="#">Photographer</a>
+            <a href="#">Interior designer</a>
+            <a href="#">Art director</a>
+            <a href="#">Fashion designer</a>
+          </div>
+        </li>
+
+
+        <li class="navbar-dropdown">
+          <a href="#">Management</a>
+          <div class="dropdown">
+            <a href="#">Chief Executive</a>
+            <a href="#"> IT Support Manager</a>
+            <a href="#">Marketing Manager</a>
+            <a href="#">Architectural</a>
+            <a href="#">Financial Manager</a>
+            <a href="#">Sales Manager</a>
+          </div>
+        </li>
+
+         <li class="navbar-dropdown">
+          <a href="#">Work From Home</a>
+          <div class="dropdown">
+            <a href="#">Virtual Assistant</a>
+            <a href="#">Medical Transcriptionist</a>
+            <a href="#">Translator</a>
+            <a href="#">Freelance Writer</a>
+            <a href="#">Data Entry</a>
+            <a href="#">Blogger</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <header class="header">
+      <div class="header-inner">
+        <h1>Job Factory</h1>
+        <form>
+          <input type="search" placeholder="Enter Your Location" />
+          <div class="overlay"></div>
+        </form>
+      </div>
+    </header>
   </body>
 </html>
