@@ -15,10 +15,6 @@
 .navbar1 li{
     display: inline;
     margin-left: 50px;
-
-
-    
-
   }
 .navbar1 a{
     text-decoration: none;
@@ -33,16 +29,11 @@
     color: #ff3f34;
     font-size: 22px;
   }
-
-
 .navbar1 a:hover{
     
     color: #ff3f34;
 
   }
-
-
-
 .submenu-0{
     display: none;
     position: absolute;
@@ -52,17 +43,11 @@
     display: inline;
     margin-left: 18%;
     width: 66%;
-
-    
     background-color: white;
-    
     margin-top: 35px;
-    
     height: 33px;
     padding: 10px;
-    
-    left: 0px;
-
+   left: 0px;
   }
 .navbar1 li:hover .submenu-0 ul{
     
@@ -82,19 +67,10 @@
     }
 .navbar1 li:hover .submenu-0 li a{
     color: black;
-
-
   }
 .navbar1 li:hover .submenu-0 li a:hover{
     color: #ff3f34;
-
   }
-
-
-
-
-
-
 .submenu-1{
     display: none;
     }
@@ -118,6 +94,7 @@
     margin: 0px;
     padding: 0px;
     border-bottom: 1px white dotted;
+    border-radius: 5px;
   }
 .submenu-0 li:hover .submenu-1 ul li a{
     color: black;
@@ -129,12 +106,6 @@
 .submenu-0 li:hover .submenu-1 ul li:last-child{
     border-bottom: none;
   }
-
-
-
-
-
-
 .submenu-2{
     display: none;
     }
@@ -142,7 +113,7 @@
     display: block;
     position: absolute;
     background-color: white;
-    margin-left: 200px;
+    margin-left: 255px;
     margin-top: 8px;
     border-radius: 5px;
   } 
@@ -169,12 +140,6 @@
 .submenu-0 li:hover .submenu-2 ul li:last-child{
     border-bottom: none;
   }
-
-
-
-
-
-
 .submenu-3{
     display: none;
     }
@@ -182,7 +147,7 @@
     display: block;
     position: absolute;
     background-color: white;
-    margin-left: 400px;
+    margin-left: 460px;
     margin-top: 8px;
     border-radius: 5px;
   } 
@@ -210,12 +175,6 @@
     border-bottom: none;
   }
 
-
-
-
-
-
-
 .submenu-4{
     display: none;
     }
@@ -223,7 +182,7 @@
     display: block;
     position: absolute;
     background-color: white;
-    margin-left: 610px;
+    margin-left: 650px;
     margin-top: 8px;
     border-radius: 5px;
   } 
@@ -251,10 +210,6 @@
 .submenu-0 li:hover .submenu-4 ul li:last-child{
     border-bottom: none;
   }
-
-
-
-
 
 .overlay {
   position: fixed;
