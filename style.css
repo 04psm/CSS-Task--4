@@ -42,7 +42,7 @@
 .navbar1 li:hover .submenu-0{
     display: inline;
     margin-left: 18%;
-    width: 66%;
+    width: 70%;
     background-color: white;
     margin-top: 35px;
     height: 33px;
@@ -265,10 +265,3 @@
   color: #666;
   font-weight: 400;
 }
-
-
-
-
-
-
-
